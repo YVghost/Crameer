@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "funciones.h"
 
 int calcular_det(int mat_a[3][3]) {
     int det;
