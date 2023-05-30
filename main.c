@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "funciones.h"
 
 int main() {
     int mat_a[3][3];
