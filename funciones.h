@@ -1,2 +1,2 @@
-int calcular_det(int mat_a[3][3]);
-void calcular_pos(int mat_a[3][3], int mat_b[3]);
+float calcular_det(float mat_a[3][3]);
+void calcular_pos(float mat_a[3][3], float mat_b[3]);
