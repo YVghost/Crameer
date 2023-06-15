@@ -18,7 +18,7 @@ void calcular_pos(float mat_a[3][3], float mat_b[3]) {
     float det_matriz = calcular_det(mat_a);
     
     if (det_matriz == 0) {
-        prfloatf("El sistema de ecuaciones no tiene solución única.\n");
+        printf("El sistema de ecuaciones no tiene solución única.\n");
         return;
     }
 
@@ -48,8 +48,8 @@ void calcular_pos(float mat_a[3][3], float mat_b[3]) {
     float y = det_y_val / det_matriz;
     float z = det_z_val / det_matriz;
     
-    prfloatf("Las posiciones son:\n");
-    prfloatf("x = %0.2f\n", x);
-    prfloatf("y = %0.2f\n", y);
-    prfloatf("z = %0.2f\n", z);
+    printf("Las posiciones son:\n");
+    printf("x = %f\n", x);
+    printf("y = %f\n", y);
+    printf("z = %f\n", z);
 }
